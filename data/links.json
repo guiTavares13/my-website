@@ -1,0 +1,165 @@
+{
+  "profile": {
+    "name": "Guilherme Tavares",
+    "title": "Software Engineer @ F1rst · Santander",
+    "tagline": "Software Engineer · Banking APIs · Data Engineering · ML",
+    "bio": "Engenheiro de Computação pela FESA e pós-graduado em Machine Learning Engineering pela FIAP. Construindo Banking APIs de alta escala, pipelines de dados e sistemas que movem o mercado financeiro.",
+    "email": "guilherme@tavareslab.com",
+    "photo": "assets/images/profile2.jpg"
+  },
+  "social": {
+    "linkedin": "http://linkedin.com/in/guilherme-tavares-749990190",
+    "github": "http://github.com/guiTavares13"
+  },
+  "stats": [
+    { "value": "6+", "label": "Anos de Experiência" },
+    { "value": "4+", "label": "Empresas" },
+    { "value": "2×", "label": "Formação Acadêmica" },
+    { "value": "∞",  "label": "Linhas de Código" }
+  ],
+  "education": [
+    {
+      "degree": "Pós-Graduação em Machine Learning Engineering",
+      "institution": "FIAP",
+      "status": "Concluído"
+    },
+    {
+      "degree": "Bacharelado em Engenharia de Computação",
+      "institution": "FESA — Faculdade Engenheiro Salvador Arena",
+      "status": "Concluído"
+    }
+  ],
+  "experience": [
+    {
+      "period": "Jul 2023 — presente",
+      "company": "F1rst — Santander Brasil",
+      "role": "Software Engineer · BaaS / Banking APIs",
+      "description": "Desenvolvimento de Banking APIs no ecossistema Banking as a Service, atuando em projetos regulatórios de alta complexidade como PIX e Open Finance. Construção de soluções financeiras com alta disponibilidade e conformidade regulatória para o maior banco privado do Brasil.",
+      "tags": ["Java", "Spring Boot", "AWS EKS", "Microservices", "PIX", "Open Finance", "BaaS"]
+    },
+    {
+      "period": "Jul 2023 — (paralelo F1rst)",
+      "company": "Empréstimos Sim — Fintech Santander",
+      "role": "Data Engineer · ML Engineer · Analytics",
+      "description": "Atuação como Data Engineer, ML Engineer e Analytics em uma fintech coligada ao Santander. Construção de pipelines de ingestão e transformação de dados em larga escala, experimentação e deploy de modelos de ML com MLflow e orquestração via Databricks.",
+      "tags": ["Databricks", "Python", "PySpark", "MLflow", "SQL", "AWS Glue", "AWS Kinesis", "Azure Data Lake Gen2"]
+    },
+    {
+      "period": "Set 2022 — Jul 2023",
+      "company": "MJV Technology & Innovation",
+      "role": "Software Engineer · Backend Java",
+      "description": "Prestação de serviços para a fintech Empréstimos Sim (Santander). Desenvolvimento e manutenção de APIs transacionais e motores de crédito para um aplicativo de empréstimo pessoal e com garantia de veículo. Trabalhei com arquiteturas orientadas a eventos, mensageria e bancos NoSQL em ambiente cloud.",
+      "tags": ["Java", "Spring Boot", "Apache Camel", "AWS DynamoDB", "Azure AKS", "Azure EventHub", "APIs REST", "Crédito"]
+    },
+    {
+      "period": "Fev 2021 — Set 2022",
+      "company": "FCamara",
+      "role": "Consultor · Software Engineer (.NET)",
+      "description": "Consultoria prestando serviços para Toledo do Brasil. Desenvolvimento e manutenção de sistemas de pesagem rodoviária de alta criticidade — utilizados no maior modal logístico do país. Integração com hardwares de pesagem (sensores, cancelas, impressoras, displays, leitores RFID, sirenes) e deploy em servidores Windows Server. Integração com sistemas legados via XML e APIs modernas.",
+      "tags": [".NET", "C#", "ASP.NET Core", "Windows Forms", "Xamarin", "Azure DevOps", "Azure Functions", "SQL Server", "TypeScript", "RFID"]
+    },
+    {
+      "period": "Fev 2019 — Fev 2021",
+      "company": "Toledo do Brasil",
+      "role": "Estagiário · Desenvolvimento & Testes",
+      "description": "Início de carreira na maior fabricante de balanças do Brasil. Atuação em testes e desenvolvimento de plataformas de pesagem integradas a dispositivos físicos como antenas RFID, leitores, cancelas e plataformas de pesagem. Primeiro contato com o ciclo completo de desenvolvimento de software embarcado e industrial.",
+      "tags": ["Testes de Software", "Hardware Integration", "RFID", "Sistemas Embarcados", "Pesagem Industrial"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Projeto 01",
+      "description": "Descrição do projeto. Substitua pelo seu repositório do GitHub com uma breve explicação do que o sistema faz e o impacto gerado.",
+      "tags": ["Java", "Spring Boot", "APIs"],
+      "github": "#",
+      "thumbnail": "assets/images/project-01.png",
+      "video": ""
+    },
+    {
+      "name": "Projeto 02",
+      "description": "Descrição do projeto. Substitua pelo seu repositório do GitHub com uma breve explicação do que o sistema faz e o impacto gerado.",
+      "tags": ["Python", "Machine Learning", "Data"],
+      "github": "#",
+      "thumbnail": "assets/images/project-02.png",
+      "video": ""
+    },
+    {
+      "name": "Projeto 03",
+      "description": "Descrição do projeto. Substitua pelo seu repositório do GitHub com uma breve explicação do que o sistema faz e o impacto gerado.",
+      "tags": ["Python", "PySpark", "Pipeline"],
+      "github": "#",
+      "thumbnail": "assets/images/project-03.png",
+      "video": ""
+    }
+  ],
+  "skills": [
+    {
+      "group": "Backend",
+      "items": [
+        "Java", "Spring Boot", "Apache Camel",
+        "C#", ".NET / ASP.NET Core",
+        "Python", "APIs REST", "Microservices"
+      ]
+    },
+    {
+      "group": "Data Engineering",
+      "items": [
+        "PySpark", "Databricks", "Apache Kafka",
+        "AWS Glue", "AWS Kinesis",
+        "Azure Data Lake Gen2",
+        "SQL / NoSQL", "ETL Pipelines", "Data Lakehouse"
+      ]
+    },
+    {
+      "group": "Machine Learning & MLOps",
+      "items": [
+        "Scikit-learn", "TensorFlow",
+        "Feature Engineering", "Feature Store",
+        "MLflow", "MLOps", "Model Deployment",
+        "Deep Learning", "NLP", "Visão Computacional",
+        "Aprendizado por Reforço", "LLMs / GenAI"
+      ]
+    },
+    {
+      "group": "Cloud — AWS",
+      "items": [
+        "EKS", "Glue", "Kinesis",
+        "SQS", "Lambda", "DynamoDB",
+        "S3", "SageMaker"
+      ]
+    },
+    {
+      "group": "Cloud — Azure",
+      "items": [
+        "AKS", "EventHub",
+        "Azure Data Lake Gen2",
+        "Azure Functions", "Azure DevOps",
+        "Azure Storage"
+      ]
+    },
+    {
+      "group": "Financeiro & Regulatório",
+      "items": [
+        "Banking APIs", "BaaS",
+        "Open Finance / Open Banking",
+        "PIX / BACEN", "Motores de Crédito",
+        "Compliance", "APIs Transacionais"
+      ]
+    },
+    {
+      "group": "DevOps & Infra",
+      "items": [
+        "Docker", "Kubernetes",
+        "CI/CD", "Azure DevOps",
+        "Windows Server", "Git"
+      ]
+    },
+    {
+      "group": "Soft Skills",
+      "items": [
+        "Liderança técnica", "Squads ágeis",
+        "Code Review", "Documentação", "Mentoria"
+      ]
+    }
+  ]
+}

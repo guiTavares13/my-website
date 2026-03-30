@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO — preenchido dinamicamente pelo render.js -->
+  <title>Guilherme Tavares — Computer Engineer</title>
+  <meta name="description" content="" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <!-- =====================================================
+       CURSOR
+       ===================================================== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+
+  <!-- =====================================================
+       NAV
+       ===================================================== -->
+  <nav>
+    <div class="nav-logo"><span>&lt;</span>tavareslab<span>/&gt;</span></div>
+    <ul class="nav-links">
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#experiencia">exp</a></li>
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#contato">contato</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- =====================================================
+       HERO
+       ===================================================== -->
+  <section id="hero">
+    <div class="hero-inner">
+
+      <div class="hero-text">
+        <p class="hero-tag" id="hero-tag"></p>
+        <h1 id="hero-name"></h1>
+        <p class="hero-sub" id="hero-sub"></p>
+        <p class="hero-desc" id="hero-desc"></p>
+        <div class="hero-btns">
+          <a href="#" id="btn-github" target="_blank" class="btn-primary">
+            <!-- GitHub icon injetado pelo render.js -->
+            Ver Projetos
+          </a>
+          <a href="#" id="btn-linkedin" target="_blank" class="btn-outline">
+            <!-- LinkedIn icon injetado pelo render.js -->
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-avatar">
+        <div style="position:relative;">
+          <div class="avatar-ring"></div>
+          <div class="avatar-frame" id="avatar-frame">
+            <!-- Foto ou placeholder injetado pelo render.js -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       STATS BAR
+       ===================================================== -->
+  <div class="stats-bar" id="stats-bar">
+    <!-- Injetado pelo render.js -->
+  </div>
+
+
+  <!-- =====================================================
+       SOBRE
+       ===================================================== -->
+  <section id="sobre">
+    <p class="section-label">sobre mim</p>
+    <h2>Engenheiro de sistemas<br>que importam.</h2>
+
+    <div class="sobre-grid">
+      <div class="sobre-text">
+        <p>
+          Sou <strong>Guilherme Tavares</strong>, Software Engineer especializado em sistemas financeiros de alta escala.
+          Atualmente trabalho na <strong>F1rst — empresa de tecnologia do Santander</strong>, desenvolvendo Banking APIs
+          dentro do ecossistema BaaS (Banking as a Service).
+        </p>
+        <p>
+          Tenho passagem por grandes consultorias e empresas como <strong>FCamara, MJV Technology</strong> e
+          <strong>Toledo do Brasil</strong>, onde atuei como Data Engineer e Software Engineer em projetos com impacto
+          real em produção.
+        </p>
+        <p>
+          Sou apaixonado pela intersecção entre <strong>engenharia de software robusta</strong>, processamento de dados
+          em escala e aplicações de <strong>Machine Learning</strong> no mundo real — especialmente no setor financeiro.
+        </p>
+      </div>
+
+      <div class="sobre-edu">
+        <p class="section-label" style="margin-bottom:1rem;">formação</p>
+        <div id="edu-list">
+          <!-- Injetado pelo render.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       EXPERIÊNCIA
+       ===================================================== -->
+  <section id="experiencia">
+    <div class="exp-inner">
+      <p class="section-label">trajetória</p>
+      <h2>Experiência Profissional</h2>
+      <div class="timeline" id="timeline">
+        <!-- Injetado pelo render.js -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       PROJETOS
+       ===================================================== -->
+  <section id="projetos">
+    <p class="section-label">portfólio</p>
+    <h2>Projetos em Destaque</h2>
+    <div class="projects-grid" id="projects-grid">
+      <!-- Injetado pelo render.js -->
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       SKILLS
+       ===================================================== -->
+  <section id="skills">
+    <div class="skills-inner">
+      <p class="section-label">tecnologias</p>
+      <h2>Stack & Skills</h2>
+      <div class="skills-grid" id="skills-grid">
+        <!-- Injetado pelo render.js -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       CONTATO
+       ===================================================== -->
+  <section id="contato">
+    <p class="section-label">contato</p>
+    <h2>Vamos conversar?</h2>
+    <p class="contact-desc">
+      Aberto a oportunidades, colaborações técnicas e trocas sobre engenharia, dados e sistemas financeiros.
+      Me encontre nas redes abaixo.
+    </p>
+    <div class="contact-links" id="contact-links">
+      <!-- Injetado pelo render.js -->
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+  <footer>
+    <span>tavareslab.com</span> · Guilherme Tavares · Feito com HTML, CSS & café ☕
+  </footer>
+
+
+  <!-- Scripts — type="module" permite import/export ES6 -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
