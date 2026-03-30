@@ -68,27 +68,27 @@
   ],
   "projects": [
     {
-      "name": "Projeto 01",
-      "description": "Descrição do projeto. Substitua pelo seu repositório do GitHub com uma breve explicação do que o sistema faz e o impacto gerado.",
-      "tags": ["Java", "Spring Boot", "APIs"],
-      "github": "#",
-      "thumbnail": "assets/images/project-01.png",
+      "name": "Cosmos Redshift",
+      "description": "Um Generic Enabler baseado em Machine Learning e Analise de Dados  para a plataforma FIWARE. Projeto de trabalho de conclusão de curso de Engenharia de Computação da Faculdade Engenheiro Salvador Arena. O projeto consiste em analisar dados de contexto providos como Smart Data Models e tirar analises estatísticas de correlação e predição com regressão linear.",
+      "tags": ["Python", "Rabbit MQ", "Machine Learning", "Data Analysis"],
+      "github": "https://github.com/Yago-Caetano/Cosmos-Redshift",
+      "thumbnail": "assets/images/fiware-with-component.png",
       "video": ""
     },
     {
-      "name": "Projeto 02",
-      "description": "Descrição do projeto. Substitua pelo seu repositório do GitHub com uma breve explicação do que o sistema faz e o impacto gerado.",
-      "tags": ["Python", "Machine Learning", "Data"],
-      "github": "#",
-      "thumbnail": "assets/images/project-02.png",
+      "name": "Dataton API G1 - Sistema de Recomendação",
+      "description": "Este projeto implementa um sistema de recomendação de notícias do G1, considerando tanto o problema de cold start quanto as preferências de usuários logados. Ele utiliza Flask para expor endpoints REST protegidos com autenticação JWT que por sua vez chamam a classe recommendations.py e suas funções",
+      "tags": ["Python", "Machine Learning", "Pandas", "Scikit-learn", "Flask", "JWT"],
+      "github": "https://github.com/guiTavares13/dataton_api_gateway",
+      "thumbnail": "assets/images/recomendacao.png",
       "video": ""
     },
     {
-      "name": "Projeto 03",
-      "description": "Descrição do projeto. Substitua pelo seu repositório do GitHub com uma breve explicação do que o sistema faz e o impacto gerado.",
-      "tags": ["Python", "PySpark", "Pipeline"],
-      "github": "#",
-      "thumbnail": "assets/images/project-03.png",
+      "name": "Ingesta B3 e Bitcoin",
+      "description": "Projeto de conclusão do modulo de Cloud Computer e Big Data do curso de Especialização e Pós Graduação em Machine Learning e Engineering na FIAP. Criei um sistema que ingere dados da bolsa de valores no modelo batch diário, fazendo um ETL dos dados na AWS Cloud. O sistema também ingere dados do valor do bitcoin em tempo real no modelo stream.",
+      "tags": ["Python", "AWS Glue", "S3 Bucket", "SQS", "Lambda", "Firehose", "Event Bridge", "Athena"],
+      "github": "https://github.com/guiTavares13/tech_challenge_ingesta_b3",
+      "thumbnail": "assets/images/bitcoin.jpeg",
       "video": ""
     }
   ],
@@ -105,7 +105,7 @@
       "group": "Data Engineering",
       "items": [
         "PySpark", "Databricks", "Apache Kafka",
-        "AWS Glue", "AWS Kinesis",
+        "AWS Glue", "AWS Kinesis", "Azure Data Factory",
         "Azure Data Lake Gen2",
         "SQL / NoSQL", "ETL Pipelines", "Data Lakehouse"
       ]

@@ -81,6 +81,8 @@ function renderEducation(education) {
   `).join('');
 }
 
+//https://github.com/Yago-Caetano/Cosmos-Redshift
+
 // ----------------------------------------------------------------
 // EXPERIENCE
 // ----------------------------------------------------------------
